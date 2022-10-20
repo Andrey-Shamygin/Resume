@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background: #ddd;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 30px;
+}
+
+@media (max-width: 650px) {
+    .avatar {
+    width: 450px;
+    }
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 22px;
+}
+
+.info-text p {
+  font-style: italic;
+  line-height: 18px;
+  margin: 0px;
+}
+
+.info-text h1 {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 50px;
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.info-text h2 {
+    margin-bottom: 1px;
+}
+
+@media (max-width: 650px) {
+    .info {
+    display: block;
+    text-align: center;
+    }
+}
+
+.card {
+    border-radius: 30px;
+    padding: 1px 20px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bg-one {
+    background-color: rgb(212, 144, 186);
+}
+ 
+.bg-two {
+    background-color: rgb(118, 215, 118);
+}
+
+.bg-fre {
+    background: rgb(230, 190, 137);
+    padding: 1px 1px;
+    padding-right: 20px;
+}
+
+.list-one li {
+    border-bottom: 1px solid rgb(88, 87, 87);
+}
+
+.list-two li {
+    list-style: none;    
+    border-bottom: 1px solid rgb(88, 87, 87);
+}
+
+.info-text a {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+table td {
+    border-bottom: 1px dashed black;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    border-top: 1px dashed black;
+    border-radius: 6px;
+}
+
+table td:nth-child(1) {
+    background: #ddd;
+    border-radius: 6px;
+    border-bottom: 2px solid blue;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color:green;
+}
+
+a:visited {
+color:rgba(142, 86, 255, 0.895);
+}
+
+@media (max-width: 650px) {
+    #message {
+    width: 400px
+    }
+}
+
+.knopka {
+    border-radius: 10px;
+    border-color: red;
+    border-width: 3px;
+    padding: 8px 20px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    background: black;
+    color:#ddd;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.knopka:hover {
+    opacity: 0.8;
+    color: red;
+}
+
+@media (max-width: 630px) {
+    .knopka {
+    margin-left: 200px;
+    }
+}
+
+.form label {     
+    margin: 0px auto;
+    display: block;   
+}
+
+.form input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form {
+    margin-left: 40px; 
+    margin-right: 40px;  
+}
+
+form h2 {
+    text-align: center;
+}
